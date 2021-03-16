@@ -1,0 +1,246 @@
+html {
+  font-size: 15px; }
+
+/*Estilos bloque bienvenidos*/
+.bienvenidos {
+  background: url("../images/Fondo-Grande.png") no-repeat center;
+  background-size: cover;
+  height: 51vh;
+  overflow: hidden; }
+
+.imagen{
+    width: 300px; 
+    height: 250px;
+ }
+
+.contacto{
+    height: 50px;
+    text-align: center;
+}
+
+.navbar-fixed-top {
+  background: rgba(0, 0, 0, 0.75); }
+
+.navbar-light .navbar-brand {
+  color: #fdfdfd;
+  font-size: 1.3rem;
+  text-transform: uppercase; }
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+  color: rgba(255, 255, 255, 0.98); }
+
+.navbar-toggler {
+  font-size: 1.6rem;
+  color: #fff !important; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  text-align: center;
+  padding: .4rem;
+  text-transform: uppercase; }
+
+.navbar-light .navbar-nav .open > .nav-link, .navbar-light .navbar-nav .open > .nav-link:focus, .navbar-light .navbar-nav .open > .nav-link:hover, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .active > .nav-link:focus, .navbar-light .navbar-nav .active > .nav-link:hover, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .nav-link.open:focus, .navbar-light .navbar-nav .nav-link.open:hover, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.active:focus, .navbar-light .navbar-nav .nav-link.active:hover {
+  color: rgba(255, 255, 255, 0.95);
+  background: #4169E1; }
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+  background: #4169E1; }
+
+#menuprincipal {
+  clear: both; }
+
+.texto-bienvenido {
+  color: #fff;
+  margin-top: 9rem; }
+
+
+/*Estilos bloque Quienes somos*/
+.quienes-somos {
+  background: #4169E1;
+  color: #fff; }
+
+
+
+.servicios h3 {
+  font-weight: bold; }
+
+/*Estilos Ultimos proyectos*/
+.ultimos-proyectos {
+  background: #424141;
+  color: #fff; }
+
+.ultimos-proyectos a {
+  display: block;
+  overflow: hidden;
+  margin-bottom: 1.5rem; }
+
+.ultimos-proyectos img {
+  -webkit-transition: all .3s ease;
+          transition: all .3s ease;
+  min-width: 100%; }
+
+.ultimos-proyectos a:hover img {
+  -webkit-transform: scale(1.5);
+      -ms-transform: scale(1.5);
+          transform: scale(1.5); }
+
+/**Estilos bloque Pie de pagina*/
+.footer {
+  color: #fff;
+  background: #222222; }
+
+  .efecto .fa {
+    color: #4169E1;
+    font-size: 6rem; 
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+   }
+   
+  .efecto:hover .fa {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+    }
+
+/* Servicios */
+
+
+ .panel .panel-heading a {
+  background: #12AFAF;
+  color: #fff;
+  display: block;
+  padding: 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+
+.panel .panel-heading a:hover {
+  background: #009500;
+  color: #fff; }
+
+
+  /*  -----------------------------
+SECCION AGENCIA
+--------------------------------*/
+.agencia {
+  background: #85a3ff;
+  color: #fff;
+  padding: 1rem 1rem; }
+
+.agencia img {
+  width: 80%;
+  margin: 0 auto;
+  display: block; }
+
+
+/*-------------------------------
+  ESTILOS PAGINA SERVICIOS
+  --------------------------------*/
+ .lista-servicios {
+   background: #009500;
+   padding-top: 1rem;
+   padding-bottom: 1rem; }
+ 
+ .lista-servicios .item-servicios {
+   background: #FFF;
+   text-align: center;
+   border: 5px solid #036903;
+   border-radius: 5px;
+   margin-bottom: 1rem;
+   padding: 1rem; }
+ 
+ .lista-servicios .item-servicios .fa {
+   font-size: 6rem;
+   color: #12AFAF;
+   margin-bottom: 1rem;
+   -webkit-transition: all 1s ease;
+   transition: all 1s ease; }
+ 
+.lista-servicios .item-servicios:hover .fa {
+   -webkit-transform: rotateY(360deg);
+           transform: rotateY(360deg);
+   -webkit-transform-style: preserve-3d;
+           transform-style: preserve-3d; }
+ 
+.frm-contacto {
+   margin-bottom: 1rem; }
+
+.lista-contactos {
+   margin: 1rem 1rem; }
+ 
+ .botones {
+   margin: 1rem 1rem; }
+ 
+
+   .servicios article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 1rem 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+
+  .servicios img {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 160px;
+            flex: 0 0 160px;
+    overflow: hidden;
+    margin-right: 0;
+    margin-bottom: 1rem;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease; }
+
+  .servicios article:hover img {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d; }
+
+  .servicios h3 a::after {
+    content: ""; }
+
+  .servicios h3 {
+    margin: 0 0 .5rem 0;
+    font-size: 1.5rem;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto; }
+
+  /*
+  el codigo utilizado es para que 
+  funcione en Internet Explorer 
+             */
+  .servicios h3 a {
+    display: block;
+    width: 100%; }
+
+  .servicios p {
+    width: 100%; }
+
+  .servicios .btn-secondary {
+    margin-top: auto; }
+
+  /* Pagina Servicios */
+  .paginas-internas .lista-servicios .col-md-4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+
+  .paginas-internas .lista-servicios .item-servicios {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+
+  .paginas-internas .lista-servicios .item-servicios .btn-primary {
+    margin-top: auto; } 
+
+
