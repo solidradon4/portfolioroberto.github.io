@@ -1,6 +1,8 @@
 html {
-  font-size: 15px; }
+  font-size: 15px; 
 
+}
+body{font-family: 'DotGothic16', sans-serif;}
 /*Estilos bloque bienvenidos*/
 .bienvenidos {
   background: url("../images/Fondo-Grande.png") no-repeat center;
